@@ -1,5 +1,5 @@
 {
-    "name": "madmatt/silverstripe-encrypt-at-rest",
+    "name": "pikselin/silverstripe-encrypt-at-rest",
     "type": "silverstripe-vendormodule",
     "description": "Enable encryption of data at rest (in database)",
     "keywords": [ "silverstripe", "encryption", "decryption", "encrypt-at-rest" ],
@@ -16,7 +16,7 @@
         "source": "https://github.com/madmatt/silverstripe-encrypt-at-rest"
     },
     "require": {
-        "silverstripe/framework": "^4.9.0",
+        "silverstripe/framework": "^4|^5",
         "defuse/php-encryption": "^2.2"
     },
     "require-dev": {
