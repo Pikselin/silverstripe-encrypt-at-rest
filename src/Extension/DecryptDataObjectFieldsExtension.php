@@ -29,7 +29,7 @@ class DecryptDataObjectFieldsExtension extends DataExtension
      * @param $record
      * @return array
      */
-    public function augmentHydrateFields($record)
+    public function augmentHydrateFields()
     {
         // Look at $this->owner to determine if it has any encrypted database fields
         $schema = DataObject::getSchema();
